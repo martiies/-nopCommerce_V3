@@ -1,0 +1,12 @@
+<!ELEMENT suite EMPTY>
+<!ATTLIST suite name CDATA #IMPLIED>
+<!ATTLIST suite parallel NMTOKEN #IMPLIED>
+<!ATTLIST suite thread-count NMTOKEN #IMPLIED>
+<!ELEMENT listeners (listener)>
+<!ELEMENT listener EMPTY>
+<!ATTLIST listener class-name NMTOKEN #REQUIRED>
+<!ELEMENT test (classes)>
+<!ATTLIST test name NMTOKEN #REQUIRED>
+<!ELEMENT classes (class)>
+<!ELEMENT class EMPTY>
+<!ATTLIST class name NMTOKEN #REQUIRED>

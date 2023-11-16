@@ -1,0 +1,1 @@
+INFO    2023-11-09 19:45:26,302 [main] Pages.MainPage  - setting up the browser for the test
